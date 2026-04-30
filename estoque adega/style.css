@@ -1,0 +1,20 @@
+:root { --vinho: #800020; --vinho-escuro: #4a0404; --branco: #ffffff; --cinza: #f4f4f4; }
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: var(--branco); }
+header { background: var(--vinho); color: white; text-align: center; padding: 15px; }
+nav { display: flex; justify-content: center; background: var(--vinho-escuro); }
+nav button { background: none; border: none; color: white; padding: 15px 25px; cursor: pointer; font-weight: bold; }
+nav button:hover { background: var(--vinho); }
+.container { padding: 20px; max-width: 1200px; margin: auto; }
+.tab-content { display: none; }
+.active { display: block; }
+form, .filtro-mes { display: flex; gap: 10px; flex-wrap: wrap; background: var(--cinza); padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+input, select { padding: 10px; border: 1px solid #ccc; border-radius: 4px; flex: 1; min-width: 150px; }
+.btn-vinho { background: var(--vinho); color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th { background: var(--vinho); color: white; padding: 12px; }
+td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+.btn-edit { background: #d4af37; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; margin-right: 5px; }
+.btn-del { background: #ff4d4d; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; }
+.cards { display: flex; gap: 20px; }
+.card { flex: 1; padding: 20px; background: var(--vinho); color: white; border-radius: 10px; text-align: center; }
+.lucro { background: #28a745; }
